@@ -13,6 +13,9 @@
   <a href="https://github.com/Sunwood-ai-labs/three-vrm-st-minimal"><img src="https://img.shields.io/github/languages/top/Sunwood-ai-labs/three-vrm-st-minimal" alt="top language"></a>
 </p>
 
+> [!IMPORTANT]
+> このリポジトリは[claude-dev](https://github.com/saoudrizwan/claude-dev)と[SourceSage](https://github.com/Sunwood-ai-labs/SourceSage), [GitHub要件定義書](https://github.com/Sunwood-ai-labs/MysticLibrary/blob/main/prompts/meta/GITHUB-REPO-CREATION-REQUIREMENTS.md)を用いて作成されました
+
 ## 📋 概要
 
 **three-vrm-st-minimal**は、Three.jsとVRMを使用してStreamlitアプリケーション内で3Dアバターを表示するための最小限のコンポーネントです。WebGLを活用し、ブラウザ上で3Dモデルを簡単に表示できることを目的としています。
