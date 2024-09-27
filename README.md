@@ -20,6 +20,10 @@
 
 **three-vrm-st-minimal**は、Three.jsとVRMを使用してStreamlitアプリケーション内で3Dアバターを表示するための最小限のコンポーネントです。WebGLを活用し、ブラウザ上で3Dモデルを簡単に表示できることを目的としています。
 
+## 🎥 デモ動画
+
+https://github.com/user-attachments/assets/c0daaf0b-365c-45fc-9754-3a95a840008f
+
 ## 🚀 特徴
 
 - **Three.jsによる高品質な3D描画**
