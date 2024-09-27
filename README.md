@@ -1,67 +1,60 @@
-# Three.js VRM Streamlit Minimal Component
+<p align="center">
+  <img src="https://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/three-vrm-st-minimal.png" alt="three-vrm-st-minimal">
+</p>
 
-![Three.js VRM Streamlit Minimal Component](https://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/three-vrm-st-minimal.png)
+<h1 align="center">three-vrm-st-minimal</h1>
 
-このリポジトリは、Three.jsとVRMを使用してStreamlitで3Dアバターを表示するための最小限のコンポーネントを提供します。
+<p align="center">
+  <a href="https://github.com/Sunwood-ai-labs/three-vrm-st-minimal"><img src="https://img.shields.io/badge/three--vrm--st--minimal-Sunwood--ai--labs-blue?logo=github" alt="three-vrm-st-minimal - Sunwood-ai-labs"></a>
+  <a href="https://github.com/Sunwood-ai-labs/three-vrm-st-minimal"><img src="https://img.shields.io/github/stars/Sunwood-ai-labs/three-vrm-st-minimal?style=social" alt="stars - three-vrm-st-minimal"></a>
+  <a href="https://github.com/Sunwood-ai-labs/three-vrm-st-minimal"><img src="https://img.shields.io/github/forks/Sunwood-ai-labs/three-vrm-st-minimal?style=social" alt="forks - three-vrm-st-minimal"></a>
+  <a href="https://github.com/Sunwood-ai-labs/three-vrm-st-minimal"><img src="https://img.shields.io/github/last-commit/Sunwood-ai-labs/three-vrm-st-minimal" alt="last commit"></a>
+  <a href="https://github.com/Sunwood-ai-labs/three-vrm-st-minimal"><img src="https://img.shields.io/github/languages/top/Sunwood-ai-labs/three-vrm-st-minimal" alt="top language"></a>
+</p>
 
-## 機能
+## 📋 概要
+
+three-vrm-st-minimalは、Three.jsとVRMを使用してStreamlitで3Dアバターを表示するための最小限のコンポーネントです。このプロジェクトは、WebGLを使用して3Dモデルをブラウザで簡単に表示できるようにすることを目的としています。
+
+## 🚀 特徴
 
 - Three.jsを使用した3D描画
-- VRMファイルのロードと表示
-- Streamlitとの連携
+- VRMファイルのサポート
+- Streamlitとの統合
+- 最小限の設定で簡単に使用可能
 
-## インストール
+## 🛠️ インストール方法
 
 ```bash
 pip install three-vrm-st-minimal
 ```
 
-## 使用方法
+## 📖 使用方法
 
 ```python
 import streamlit as st
-from three_vrm_st_minimal import three_vrm_viewer
+from three_vrm_st_minimal import ThreeVrmViewer
 
-# VRMファイルのパスを指定
-vrm_path = "path/to/your/avatar.vrm"
+st.title("VRM Viewer")
 
-# コンポーネントを表示
-three_vrm_viewer(vrm_path)
+vrm_viewer = ThreeVrmViewer()
+vrm_viewer.display()
 ```
 
-## 開発
+## 🤝 貢献方法
 
-1. リポジトリをクローン:
-   ```
-   git clone https://github.com/Sunwood-ai-labs/three-vrm-st-minimal.git
-   ```
+1. このリポジトリをフォークします
+2. 新しいブランチを作成します (`git checkout -b feature/AmazingFeature`)
+3. 変更をコミットします (`git commit -m 'Add some AmazingFeature'`)
+4. ブランチにプッシュします (`git push origin feature/AmazingFeature`)
+5. プルリクエストを作成します
 
-2. 依存関係をインストール:
-   ```
-   cd three-vrm-st-minimal
-   pip install -r requirements.txt
-   ```
+## 📄 ライセンス
 
-3. フロントエンド開発:
-   ```
-   cd frontend
-   npm install
-   npm start
-   ```
+このプロジェクトはMITライセンスの下で公開されています。詳細は[LICENSE](LICENSE)ファイルをご覧ください。
 
-4. Streamlitアプリを実行:
-   ```
-   streamlit run example.py
-   ```
+## 📞 連絡先
 
-## ライセンス
+Sunwood-ai-labs - [@Sunwood_ai_labs](https://twitter.com/Sunwood_ai_labs)
 
-MITライセンス
-
-## 貢献
-
-プルリクエストは歓迎します。大きな変更については、まず問題を開いて議論してください。
-
-## 作者
-
-Sunwood-ai-labs
+プロジェクトリンク: [https://github.com/Sunwood-ai-labs/three-vrm-st-minimal](https://github.com/Sunwood-ai-labs/three-vrm-st-minimal)
