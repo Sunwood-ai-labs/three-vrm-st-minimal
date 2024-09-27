@@ -1,0 +1,44 @@
+{
+  "name": "my_component",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@pixiv/three-vrm": "^3.1.1",
+    "@types/three": "^0.168.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "streamlit-component-lib": "^2.0.0",
+    "three": "^0.168.0"
+  },
+  "scripts": {
+    "start": "cross-env PORT=3006  react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": ".",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "cross-env": "^7.0.3",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.2.0"
+  }
+}
